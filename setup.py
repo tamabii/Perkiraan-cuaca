@@ -4,15 +4,15 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Perkiraan cuaca temanggung",
+    name="Perkiraan cuaca bekasi",
     version="1.0",
-    author="Julianto T. Wibowo",
-    author_email="juliantowibowo3@gmail.com",
+    author="call me dam",
+    author_email="cosmodanang@gmail.com",
     description="This package will get the latest weather from BMKG | Meteorological, Climatological, and "
                 "Geophysical Agency",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Jlntriwibowo/Perkiraan-cuaca",
+    url="https://github.com/tamabii/cuaca-latihan",
     project_urls={
         "Website": "https://remoteworker.id",
     },

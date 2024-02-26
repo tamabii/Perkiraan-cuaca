@@ -14,7 +14,7 @@ def ekstraksi_data():
 #menghindari error menjadi None
 
     try:
-        content = requests.get('https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kota=Temanggung&AreaID=501268&Prov=11')
+        content = requests.get('https://www.bmkg.go.id/cuaca/prakiraan-cuaca.bmkg?Kec=Bekasi&kab=Kota_Bekasi&Prov=Jawa_Barat&AreaID=5002228')
     except Exception:
         return None
 
@@ -85,7 +85,7 @@ def tampilkan_data(result):
     print(f"6.arah angin :{result['arah']}")
 
 if __name__ == '__main__' :
-    print('Aplikasi Cuaca di Temanggung')
+    print('Aplikasi cuaca')
     result = ekstraksi_data()
     tampilkan_data(result)
     print('thanks')
