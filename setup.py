@@ -12,7 +12,7 @@ setuptools.setup(
                 "Geophysical Agency",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tamabii/cuaca-latihan",
+    url="https://github.com/tamabii/Perkiraan-cuaca",
     project_urls={
         "Website": "https://remoteworker.id",
     },
